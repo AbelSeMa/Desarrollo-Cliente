@@ -7,13 +7,10 @@ todo.forEach(nodo => {
             var hijos = nodo.childNodes;
             hijos.forEach(hijo => {
                 if (hijo.nodeType != 3) {
-                    document.body.innerHTML += "<ul>" + hijo.nodeName + "</ul>";
-                    
+                    document.body.innerHTML += "<ul>" + hijo.nodeName + "</ul>";                    
                 }
-
                 if (hijo.hasChildNodes) {
                     var nietos = hijo.childNodes;
-                    // document.body.innerHTML += nietos[0].parentNode.nodeName + "<br>";
                     nietos.forEach(nieto => {
                         if (nieto.nodeType != 3) {
                             document.body.innerHTML += "<ul><ul>" + nieto.nodeName + "</ul></ul>";
