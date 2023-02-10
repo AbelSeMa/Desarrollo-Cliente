@@ -3,6 +3,7 @@ Actividad 1 Tema 7:
 Transforma el siguiente código XML en formato
 Json:
 
+<?xml version="1.0" encoding="UTF-8"?>
 <departamento>
     <trabajador>
         <nombre>Pedro</nombre>
