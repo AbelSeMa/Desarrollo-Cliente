@@ -1,7 +1,13 @@
 <?php
     // Array de ciudades
 
-    $ci = ["Sanlucar", "Jerez", "Puerto de Santa Maria", "Chipiona", "Sevilla", "Sanlucar la Mayor", "Jerez de los caballeros"];
+    $ci = ["Sanlucar de Barrameda", "Jerez de la Frontera", "Puerto de Santa Maria", 
+            "Chipiona", "Sevilla", "Sanlucar la Mayor", 
+            "Jerez de los caballeros", "Bornos", "Conil de la frontera",
+            "Trebujena", "Lebrija", "Almonte", "El Rocio", "Rota",
+            "Melilla", "Nejar", "Villar de Cañas", "Zamora", "Fuengirola",
+            "Gijón", "Hierro"
+         ];
 
     //Capturar el valor del input que viene de la url
 

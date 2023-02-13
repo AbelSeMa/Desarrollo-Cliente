@@ -11,6 +11,6 @@ if (cadena.length == 0) {
             document.getElementById("sugerencia").innerHTML = this.responseText;
         }
     };
-    xhr.open("GET", "http://127.0.0.1:8000/arrayciudades.php?ciudad=" + cadena, true);  //URL
-    xhr.send(); // si fuera post .......
+    xhr.open("GET", "/arrayciudades.php?ciudad=" + cadena, true);  //URL
+    xhr.send();
 }});
